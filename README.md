@@ -1,28 +1,32 @@
 # MSMarksButtonList
 
-[![CI Status](http://img.shields.io/travis/夏敏/MSMarksButtonList.svg?style=flat)](https://travis-ci.org/夏敏/MSMarksButtonList)
-[![Version](https://img.shields.io/cocoapods/v/MSMarksButtonList.svg?style=flat)](http://cocoapods.org/pods/MSMarksButtonList)
-[![License](https://img.shields.io/cocoapods/l/MSMarksButtonList.svg?style=flat)](http://cocoapods.org/pods/MSMarksButtonList)
-[![Platform](https://img.shields.io/cocoapods/p/MSMarksButtonList.svg?style=flat)](http://cocoapods.org/pods/MSMarksButtonList)
+![License MIT](https://img.shields.io/dub/l/vibe-d.svg)
+![Pod version](http://img.shields.io/cocoapods/v/MSMarksButtonList.svg?style=flat)
+![Platform info](http://img.shields.io/cocoapods/p/MSMarksButtonList.svg?style=flat)
+[![Support](https://img.shields.io/badge/support-iOS7+-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
+
+A group of buttons ,can be used to do a multiple choice component
 
 ## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+easy
+```
 
 ## Requirements
+* ios 7+
+* ARC
 
 ## Installation
 
 MSMarksButtonList is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod "MSMarksButtonList"
-```
+`pod "MSMarksButtonList"`
+
 
 ## Author
 
-夏敏, min.xia@mishi.cn
+[robert121](http://www.jianshu.com/users/84ae3fbd22e1/latest_articles)
 
 ## License
 

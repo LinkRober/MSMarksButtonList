@@ -7,40 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F73BDBED70FB20BEC7D2333F3D50F50 /* MSMarksButtonList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C684D5EBDABCAFCBB959BC2E4EA95EF1 /* MSMarksButtonList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D39FCF2D629FED7497B0922600AE6A4 /* Pods-MSMarksButtonList_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025B885BB753A66EC2845F3B19D1B02 /* Pods-MSMarksButtonList_Example-dummy.m */; };
-		3063A1D6F3B89247DDA252AAC4B3820A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		53E56A01CE9601B2686DA5B18641500C /* Pods-MSMarksButtonList_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E152A2D60D2A3A6E4374F53668CA2F /* Pods-MSMarksButtonList_Tests-dummy.m */; };
-		5FACD1D231F2BB46705347D8636A2EDA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE1E07EC74DC3143A881C7232C4306 /* ReplaceMe.m */; };
-		8627C80FF74191F9956F0BF3CA2B9E23 /* MSMarksButtonList.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F01A534C536605ACAE72C6B388FC66F /* MSMarksButtonList.bundle */; };
-		A88E5EC9EE0C4D637CB854A86A4A313B /* MSMarksButtonList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E1A9B6987DD117D2B2919CAAFAFDF4 /* MSMarksButtonList-dummy.m */; };
-		B94AACE76C9094FE4CB80ED2141B07A1 /* Pods-MSMarksButtonList_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A74CA8F6D82767106A782A9BF19DAC /* Pods-MSMarksButtonList_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFE580E12141A9029C10DEFE32552F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		E0E6761AF74FA4CC94F72620D5703FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F0C1E18E685849A69F339E881F17AF92 /* Pods-MSMarksButtonList_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91747CBBF922E6571639F2C12DB03324 /* Pods-MSMarksButtonList_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD460131C980E8200074923 /* MSButtonCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD460031C980E8200074923 /* MSButtonCommon.m */; };
+		8AD460141C980E8200074923 /* MSButtonConfigurationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD460051C980E8200074923 /* MSButtonConfigurationModel.m */; };
+		8AD460151C980E8200074923 /* MSButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD460071C980E8200074923 /* MSButtonFactory.m */; };
+		8AD460161C980E8200074923 /* MSButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4600A1C980E8200074923 /* MSButtonModel.m */; };
+		8AD460171C980E8200074923 /* MSMarksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4600C1C980E8200074923 /* MSMarksButton.m */; };
+		8AD460181C980E8200074923 /* MSMarksButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4600E1C980E8200074923 /* MSMarksButtonHelper.m */; };
+		8AD460191C980E8200074923 /* MSMarksButtonList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD460101C980E8200074923 /* MSMarksButtonList.m */; };
+		8AD4601A1C980E8200074923 /* MSScoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD460121C980E8200074923 /* MSScoreButton.m */; };
+		9CD92AAD7B99AEEF63ABF249A3556083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AEC8DC7A1153B7B9271193E97223FFC0 /* Pods-MSMarksButtonList_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E152A2D60D2A3A6E4374F53668CA2F /* Pods-MSMarksButtonList_Tests-dummy.m */; };
+		BDE814DB97C70227FB27C76341BF26B4 /* Pods-MSMarksButtonList_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025B885BB753A66EC2845F3B19D1B02 /* Pods-MSMarksButtonList_Example-dummy.m */; };
+		EBBC208CDC65F6670A7822DA904E0036 /* Pods-MSMarksButtonList_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91747CBBF922E6571639F2C12DB03324 /* Pods-MSMarksButtonList_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82E7AF32AE77A9D1C76F6120B5CDBF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FDFCAA65F344AA3A90D8461C4C6EECD6 /* Pods-MSMarksButtonList_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A74CA8F6D82767106A782A9BF19DAC /* Pods-MSMarksButtonList_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34B5B248750981F6E915A0DC18E8BEA5 /* PBXContainerItemProxy */ = {
+		CEEB18A5292CDA412EA17AAE0DEFBDE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51E5FC0D900F197955EA2DCC6A3FCFE4;
-			remoteInfo = MSMarksButtonList;
-		};
-		540298C86601A0D63B075D7D01416A40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55E04ACD5998CBF85561659B4ED7BB90;
+			remoteGlobalIDString = 971950A48C5AC955DD7DC4857F54A33A;
 			remoteInfo = "MSMarksButtonList-MSMarksButtonList";
 		};
-		C1D3B0468FEBC6CAC8D202D90C7183D3 /* PBXContainerItemProxy */ = {
+		D6BDC3081000B3B79881F7CF15BA128C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51E5FC0D900F197955EA2DCC6A3FCFE4;
-			remoteInfo = MSMarksButtonList;
+			remoteGlobalIDString = 971950A48C5AC955DD7DC4857F54A33A;
+			remoteInfo = "MSMarksButtonList-MSMarksButtonList";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,67 +44,68 @@
 		15A8F11EEB9F294FC00325536DA2FEDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A2FADDF3263343373D5F59EF8E18FC /* Pods-MSMarksButtonList_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSMarksButtonList_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1CBB866A59FF3CFF2D2CA26AAAA4DC24 /* Pods-MSMarksButtonList_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSMarksButtonList_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E98C84D516A62C22A31C184325B9D64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA4107A0D285FEFD1ECE6AF99A5D9EC /* Pods-MSMarksButtonList_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSMarksButtonList_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		366EFF1AC7DF6A60838A6E40EE006424 /* Pods_MSMarksButtonList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSMarksButtonList_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33927EEE88ADB5BA0C072FD608EE23EF /* Pods_MSMarksButtonList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSMarksButtonList_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4196C0CE3B8D3FBF6E1B1B0EB34685A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		464880D6A3D54013B7325B5780ADBF1E /* MSMarksButtonList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSMarksButtonList.xcconfig; sourceTree = "<group>"; };
 		4C43AA0B2BD2D06C645CCCF878D6EFD3 /* Pods-MSMarksButtonList_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSMarksButtonList_Tests-resources.sh"; sourceTree = "<group>"; };
 		53590E7F431C26F0605CC625C796EFD6 /* Pods-MSMarksButtonList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSMarksButtonList_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5FEE1E07EC74DC3143A881C7232C4306 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		6025B885BB753A66EC2845F3B19D1B02 /* Pods-MSMarksButtonList_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSMarksButtonList_Example-dummy.m"; sourceTree = "<group>"; };
-		61CAF175B83D277BA5924DB9A76A00A6 /* MSMarksButtonList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSMarksButtonList-prefix.pch"; sourceTree = "<group>"; };
 		67F6EC38DA47F641CB48EBD194EBF770 /* Pods-MSMarksButtonList_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSMarksButtonList_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6943D31F314D1461FA0DB2E80D090205 /* Pods-MSMarksButtonList_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSMarksButtonList_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6FC95D8744A0D64392DC88B45D16FCAC /* Pods_MSMarksButtonList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSMarksButtonList_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A74CA8F6D82767106A782A9BF19DAC /* Pods-MSMarksButtonList_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSMarksButtonList_Example-umbrella.h"; sourceTree = "<group>"; };
-		7511903105C8DADD61719F937BAB0BBD /* MSMarksButtonList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MSMarksButtonList.modulemap; sourceTree = "<group>"; };
+		8AD460021C980E8200074923 /* MSButtonCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSButtonCommon.h; path = Pod/MSMarksButtonList/MSButtonCommon.h; sourceTree = "<group>"; };
+		8AD460031C980E8200074923 /* MSButtonCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSButtonCommon.m; path = Pod/MSMarksButtonList/MSButtonCommon.m; sourceTree = "<group>"; };
+		8AD460041C980E8200074923 /* MSButtonConfigurationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSButtonConfigurationModel.h; path = Pod/MSMarksButtonList/MSButtonConfigurationModel.h; sourceTree = "<group>"; };
+		8AD460051C980E8200074923 /* MSButtonConfigurationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSButtonConfigurationModel.m; path = Pod/MSMarksButtonList/MSButtonConfigurationModel.m; sourceTree = "<group>"; };
+		8AD460061C980E8200074923 /* MSButtonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSButtonFactory.h; path = Pod/MSMarksButtonList/MSButtonFactory.h; sourceTree = "<group>"; };
+		8AD460071C980E8200074923 /* MSButtonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSButtonFactory.m; path = Pod/MSMarksButtonList/MSButtonFactory.m; sourceTree = "<group>"; };
+		8AD460081C980E8200074923 /* MSButtonFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSButtonFactoryProtocol.h; path = Pod/MSMarksButtonList/MSButtonFactoryProtocol.h; sourceTree = "<group>"; };
+		8AD460091C980E8200074923 /* MSButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSButtonModel.h; path = Pod/MSMarksButtonList/MSButtonModel.h; sourceTree = "<group>"; };
+		8AD4600A1C980E8200074923 /* MSButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSButtonModel.m; path = Pod/MSMarksButtonList/MSButtonModel.m; sourceTree = "<group>"; };
+		8AD4600B1C980E8200074923 /* MSMarksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMarksButton.h; path = Pod/MSMarksButtonList/MSMarksButton.h; sourceTree = "<group>"; };
+		8AD4600C1C980E8200074923 /* MSMarksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMarksButton.m; path = Pod/MSMarksButtonList/MSMarksButton.m; sourceTree = "<group>"; };
+		8AD4600D1C980E8200074923 /* MSMarksButtonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMarksButtonHelper.h; path = Pod/MSMarksButtonList/MSMarksButtonHelper.h; sourceTree = "<group>"; };
+		8AD4600E1C980E8200074923 /* MSMarksButtonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMarksButtonHelper.m; path = Pod/MSMarksButtonList/MSMarksButtonHelper.m; sourceTree = "<group>"; };
+		8AD4600F1C980E8200074923 /* MSMarksButtonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMarksButtonList.h; path = Pod/MSMarksButtonList/MSMarksButtonList.h; sourceTree = "<group>"; };
+		8AD460101C980E8200074923 /* MSMarksButtonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMarksButtonList.m; path = Pod/MSMarksButtonList/MSMarksButtonList.m; sourceTree = "<group>"; };
+		8AD460111C980E8200074923 /* MSScoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScoreButton.h; path = Pod/MSMarksButtonList/MSScoreButton.h; sourceTree = "<group>"; };
+		8AD460121C980E8200074923 /* MSScoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScoreButton.m; path = Pod/MSMarksButtonList/MSScoreButton.m; sourceTree = "<group>"; };
 		8E29F7A29E4186A3C8B2B16963B23470 /* Pods-MSMarksButtonList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MSMarksButtonList_Example.modulemap"; sourceTree = "<group>"; };
-		8F01A534C536605ACAE72C6B388FC66F /* MSMarksButtonList.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSMarksButtonList.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		91747CBBF922E6571639F2C12DB03324 /* Pods-MSMarksButtonList_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSMarksButtonList_Tests-umbrella.h"; sourceTree = "<group>"; };
-		94E1A9B6987DD117D2B2919CAAFAFDF4 /* MSMarksButtonList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSMarksButtonList-dummy.m"; sourceTree = "<group>"; };
+		98A219B74F70628E0F8047F0724327AC /* Pods_MSMarksButtonList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSMarksButtonList_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3DB20102AAE127D01B00D7085CDBD8 /* Pods-MSMarksButtonList_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MSMarksButtonList_Tests.modulemap"; sourceTree = "<group>"; };
 		B2A812609E1E2F5741CEB34B208BDAAA /* Pods-MSMarksButtonList_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSMarksButtonList_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B891C7C849F9A8C05AC59C36472DDD86 /* Pods-MSMarksButtonList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSMarksButtonList_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C0FC9E6800F0BEAF3BE4C1DF2DC1C7F3 /* Pods-MSMarksButtonList_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSMarksButtonList_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C684D5EBDABCAFCBB959BC2E4EA95EF1 /* MSMarksButtonList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSMarksButtonList-umbrella.h"; sourceTree = "<group>"; };
-		D9FBF912516560C59650DF5F0797B8CB /* MSMarksButtonList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSMarksButtonList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F72DA175E70522F06AD45D9FF62D8D /* MSMarksButtonList.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSMarksButtonList.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54F5F022D87DBD477C425B995D5A17C /* Pods-MSMarksButtonList_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSMarksButtonList_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EC19D1E6215476D4A82D65E60554F0E7 /* Pods-MSMarksButtonList_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSMarksButtonList_Example-resources.sh"; sourceTree = "<group>"; };
 		F1E152A2D60D2A3A6E4374F53668CA2F /* Pods-MSMarksButtonList_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSMarksButtonList_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AF5AF2EC5D463430D26E983384FD940 /* Frameworks */ = {
+		096724633F5107DBCAFA5B245986DF9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4576956D47816D379E391CFE0F63059F /* Frameworks */ = {
+		43DAA3151FD15325774E9FCA6AA31FB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3063A1D6F3B89247DDA252AAC4B3820A /* Foundation.framework in Frameworks */,
+				9CD92AAD7B99AEEF63ABF249A3556083 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2A18EA384912C050110533A0363125D /* Frameworks */ = {
+		BEE63BFE962789DF5740037E50879461 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE580E12141A9029C10DEFE32552F03 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB25810ED85825FC5B937822A43B6B87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0E6761AF74FA4CC94F72620D5703FB7 /* Foundation.framework in Frameworks */,
+				F82E7AF32AE77A9D1C76F6120B5CDBF5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,37 +121,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		17B960DE0BBBF13F7EBD30B15C21C49D /* Products */ = {
+		4E87DC031C674EA23E2107C6BF6550FE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F01A534C536605ACAE72C6B388FC66F /* MSMarksButtonList.bundle */,
-				D9FBF912516560C59650DF5F0797B8CB /* MSMarksButtonList.framework */,
-				6FC95D8744A0D64392DC88B45D16FCAC /* Pods_MSMarksButtonList_Example.framework */,
-				366EFF1AC7DF6A60838A6E40EE006424 /* Pods_MSMarksButtonList_Tests.framework */,
+				6A06C8EE0F743B1FEAD9B00E2A7A367C /* MSMarksButtonList */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		206701DB06A5A68B9449AB526778FAA2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2E98C84D516A62C22A31C184325B9D64 /* Info.plist */,
-				7511903105C8DADD61719F937BAB0BBD /* MSMarksButtonList.modulemap */,
-				464880D6A3D54013B7325B5780ADBF1E /* MSMarksButtonList.xcconfig */,
-				94E1A9B6987DD117D2B2919CAAFAFDF4 /* MSMarksButtonList-dummy.m */,
-				61CAF175B83D277BA5924DB9A76A00A6 /* MSMarksButtonList-prefix.pch */,
-				C684D5EBDABCAFCBB959BC2E4EA95EF1 /* MSMarksButtonList-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MSMarksButtonList";
-			sourceTree = "<group>";
-		};
-		49004E397F19489245955ECEF8832519 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BB4B20550FF70F7E97FC5888EF3F4639 /* Classes */,
-			);
-			path = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		59256A8E69800EDEC4FFC6A44AF4A819 /* Pods-MSMarksButtonList_Example */ = {
@@ -175,41 +147,50 @@
 			path = "Target Support Files/Pods-MSMarksButtonList_Example";
 			sourceTree = "<group>";
 		};
+		6A06C8EE0F743B1FEAD9B00E2A7A367C /* MSMarksButtonList */ = {
+			isa = PBXGroup;
+			children = (
+				8AD460021C980E8200074923 /* MSButtonCommon.h */,
+				8AD460031C980E8200074923 /* MSButtonCommon.m */,
+				8AD460041C980E8200074923 /* MSButtonConfigurationModel.h */,
+				8AD460051C980E8200074923 /* MSButtonConfigurationModel.m */,
+				8AD460061C980E8200074923 /* MSButtonFactory.h */,
+				8AD460071C980E8200074923 /* MSButtonFactory.m */,
+				8AD460081C980E8200074923 /* MSButtonFactoryProtocol.h */,
+				8AD460091C980E8200074923 /* MSButtonModel.h */,
+				8AD4600A1C980E8200074923 /* MSButtonModel.m */,
+				8AD4600B1C980E8200074923 /* MSMarksButton.h */,
+				8AD4600C1C980E8200074923 /* MSMarksButton.m */,
+				8AD4600D1C980E8200074923 /* MSMarksButtonHelper.h */,
+				8AD4600E1C980E8200074923 /* MSMarksButtonHelper.m */,
+				8AD4600F1C980E8200074923 /* MSMarksButtonList.h */,
+				8AD460101C980E8200074923 /* MSMarksButtonList.m */,
+				8AD460111C980E8200074923 /* MSScoreButton.h */,
+				8AD460121C980E8200074923 /* MSScoreButton.m */,
+			);
+			name = MSMarksButtonList;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				9B7A85EA20A33C0FA26EE42A2E658BC8 /* Development Pods */,
+				4E87DC031C674EA23E2107C6BF6550FE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				17B960DE0BBBF13F7EBD30B15C21C49D /* Products */,
+				80F4EE930177DC23CF5873A660822394 /* Products */,
 				09989D25A81A642DB504DE56AEE002EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9B7A85EA20A33C0FA26EE42A2E658BC8 /* Development Pods */ = {
+		80F4EE930177DC23CF5873A660822394 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBBC350853C6EA4F99723F20DD1CECFA /* MSMarksButtonList */,
+				C6F72DA175E70522F06AD45D9FF62D8D /* MSMarksButtonList.bundle */,
+				98A219B74F70628E0F8047F0724327AC /* Pods_MSMarksButtonList_Example.framework */,
+				33927EEE88ADB5BA0C072FD608EE23EF /* Pods_MSMarksButtonList_Tests.framework */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BB4B20550FF70F7E97FC5888EF3F4639 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5FEE1E07EC74DC3143A881C7232C4306 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BBBC350853C6EA4F99723F20DD1CECFA /* MSMarksButtonList */ = {
-			isa = PBXGroup;
-			children = (
-				49004E397F19489245955ECEF8832519 /* Pod */,
-				206701DB06A5A68B9449AB526778FAA2 /* Support Files */,
-			);
-			name = MSMarksButtonList;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -249,59 +230,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02E5D30F04D9DDAC2EEBC8E36990D9B9 /* Headers */ = {
+		6373F129DEF6E0A27838AD7D2946CDA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C1E18E685849A69F339E881F17AF92 /* Pods-MSMarksButtonList_Tests-umbrella.h in Headers */,
+				FDFCAA65F344AA3A90D8461C4C6EECD6 /* Pods-MSMarksButtonList_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127EE0A67E5EA8764DCFE0D97BBEDDA2 /* Headers */ = {
+		E67640582DD5B26306B88F73E849C173 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F73BDBED70FB20BEC7D2333F3D50F50 /* MSMarksButtonList-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D5340C7162E798BE8AA1E5C76E581A3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B94AACE76C9094FE4CB80ED2141B07A1 /* Pods-MSMarksButtonList_Example-umbrella.h in Headers */,
+				EBBC208CDC65F6670A7822DA904E0036 /* Pods-MSMarksButtonList_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		51E5FC0D900F197955EA2DCC6A3FCFE4 /* MSMarksButtonList */ = {
+		24AF6CA4D7268A15E4168A3586D1A6C6 /* Pods-MSMarksButtonList_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DFB0B4CAF18E52B760A48C2AE0B570D /* Build configuration list for PBXNativeTarget "MSMarksButtonList" */;
+			buildConfigurationList = B40954285A260ABB6364D004A0D6182F /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Tests" */;
 			buildPhases = (
-				57266036C7B7CC757480DCDE8BFABD1A /* Sources */,
-				4576956D47816D379E391CFE0F63059F /* Frameworks */,
-				542ECA9A013DA5811A47F51063876F8D /* Resources */,
-				127EE0A67E5EA8764DCFE0D97BBEDDA2 /* Headers */,
+				9FE09D5DB7FDA58DC8634F0FAAE6CB77 /* Sources */,
+				BEE63BFE962789DF5740037E50879461 /* Frameworks */,
+				E67640582DD5B26306B88F73E849C173 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				864BC8500230C29A6B3F7191B048ADD3 /* PBXTargetDependency */,
+				BD0741B9C914909AD5DC5340EB7A2726 /* PBXTargetDependency */,
 			);
-			name = MSMarksButtonList;
-			productName = MSMarksButtonList;
-			productReference = D9FBF912516560C59650DF5F0797B8CB /* MSMarksButtonList.framework */;
+			name = "Pods-MSMarksButtonList_Tests";
+			productName = "Pods-MSMarksButtonList_Tests";
+			productReference = 33927EEE88ADB5BA0C072FD608EE23EF /* Pods_MSMarksButtonList_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		55E04ACD5998CBF85561659B4ED7BB90 /* MSMarksButtonList-MSMarksButtonList */ = {
+		873F3F5B0490C1F8C50E545768785E36 /* Pods-MSMarksButtonList_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75F6C62BD917C13FD67D686DCFDD104A /* Build configuration list for PBXNativeTarget "MSMarksButtonList-MSMarksButtonList" */;
+			buildConfigurationList = C34573A8EA7069940ED4F117CEA88548 /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Example" */;
 			buildPhases = (
-				90EA47A039A169DB11455D62C5D8EB33 /* Sources */,
-				2AF5AF2EC5D463430D26E983384FD940 /* Frameworks */,
-				0C3A6442E8BE37147EB7365EF12023A6 /* Resources */,
+				788C7CCBA0E27EEEC9B75E342C2A69F1 /* Sources */,
+				43DAA3151FD15325774E9FCA6AA31FB0 /* Frameworks */,
+				6373F129DEF6E0A27838AD7D2946CDA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52715A4548F76668526D5A13B958D0AE /* PBXTargetDependency */,
+			);
+			name = "Pods-MSMarksButtonList_Example";
+			productName = "Pods-MSMarksButtonList_Example";
+			productReference = 98A219B74F70628E0F8047F0724327AC /* Pods_MSMarksButtonList_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		971950A48C5AC955DD7DC4857F54A33A /* MSMarksButtonList-MSMarksButtonList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AA96B5AE0DA3F8F11450134ADE81D4 /* Build configuration list for PBXNativeTarget "MSMarksButtonList-MSMarksButtonList" */;
+			buildPhases = (
+				B9BC3D3A86D9F0C3C982DCDB3520AEA7 /* Sources */,
+				096724633F5107DBCAFA5B245986DF9A /* Frameworks */,
+				2ECC4CE4CAE93B27308363160443339F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -309,44 +299,8 @@
 			);
 			name = "MSMarksButtonList-MSMarksButtonList";
 			productName = "MSMarksButtonList-MSMarksButtonList";
-			productReference = 8F01A534C536605ACAE72C6B388FC66F /* MSMarksButtonList.bundle */;
+			productReference = C6F72DA175E70522F06AD45D9FF62D8D /* MSMarksButtonList.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		95C37040B83ADFEF3E4C356EA6F4FDC4 /* Pods-MSMarksButtonList_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D48F853B2E54A094DA2C30BCFD8817A6 /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Example" */;
-			buildPhases = (
-				9AD2B1F333E9FBFF92541D3FBDD3B217 /* Sources */,
-				A2A18EA384912C050110533A0363125D /* Frameworks */,
-				3D5340C7162E798BE8AA1E5C76E581A3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A181B12DE1011F33426F09A58582192C /* PBXTargetDependency */,
-			);
-			name = "Pods-MSMarksButtonList_Example";
-			productName = "Pods-MSMarksButtonList_Example";
-			productReference = 6FC95D8744A0D64392DC88B45D16FCAC /* Pods_MSMarksButtonList_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BFF6E56BCE53CFC4B444E874AEB37EA2 /* Pods-MSMarksButtonList_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA35FC0612DCE98A1CCFB769295F3F2A /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Tests" */;
-			buildPhases = (
-				7AD1151F207FD2C576A935095312E68C /* Sources */,
-				FB25810ED85825FC5B937822A43B6B87 /* Frameworks */,
-				02E5D30F04D9DDAC2EEBC8E36990D9B9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				99E24AF9E7815EE8C85FB082140D53D6 /* PBXTargetDependency */,
-			);
-			name = "Pods-MSMarksButtonList_Tests";
-			productName = "Pods-MSMarksButtonList_Tests";
-			productReference = 366EFF1AC7DF6A60838A6E40EE006424 /* Pods_MSMarksButtonList_Tests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -365,89 +319,73 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 17B960DE0BBBF13F7EBD30B15C21C49D /* Products */;
+			productRefGroup = 80F4EE930177DC23CF5873A660822394 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51E5FC0D900F197955EA2DCC6A3FCFE4 /* MSMarksButtonList */,
-				55E04ACD5998CBF85561659B4ED7BB90 /* MSMarksButtonList-MSMarksButtonList */,
-				95C37040B83ADFEF3E4C356EA6F4FDC4 /* Pods-MSMarksButtonList_Example */,
-				BFF6E56BCE53CFC4B444E874AEB37EA2 /* Pods-MSMarksButtonList_Tests */,
+				971950A48C5AC955DD7DC4857F54A33A /* MSMarksButtonList-MSMarksButtonList */,
+				873F3F5B0490C1F8C50E545768785E36 /* Pods-MSMarksButtonList_Example */,
+				24AF6CA4D7268A15E4168A3586D1A6C6 /* Pods-MSMarksButtonList_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C3A6442E8BE37147EB7365EF12023A6 /* Resources */ = {
+		2ECC4CE4CAE93B27308363160443339F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		542ECA9A013DA5811A47F51063876F8D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8627C80FF74191F9956F0BF3CA2B9E23 /* MSMarksButtonList.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		57266036C7B7CC757480DCDE8BFABD1A /* Sources */ = {
+		788C7CCBA0E27EEEC9B75E342C2A69F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88E5EC9EE0C4D637CB854A86A4A313B /* MSMarksButtonList-dummy.m in Sources */,
-				5FACD1D231F2BB46705347D8636A2EDA /* ReplaceMe.m in Sources */,
+				BDE814DB97C70227FB27C76341BF26B4 /* Pods-MSMarksButtonList_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AD1151F207FD2C576A935095312E68C /* Sources */ = {
+		9FE09D5DB7FDA58DC8634F0FAAE6CB77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53E56A01CE9601B2686DA5B18641500C /* Pods-MSMarksButtonList_Tests-dummy.m in Sources */,
+				AEC8DC7A1153B7B9271193E97223FFC0 /* Pods-MSMarksButtonList_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90EA47A039A169DB11455D62C5D8EB33 /* Sources */ = {
+		B9BC3D3A86D9F0C3C982DCDB3520AEA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AD2B1F333E9FBFF92541D3FBDD3B217 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D39FCF2D629FED7497B0922600AE6A4 /* Pods-MSMarksButtonList_Example-dummy.m in Sources */,
+				8AD460181C980E8200074923 /* MSMarksButtonHelper.m in Sources */,
+				8AD460171C980E8200074923 /* MSMarksButton.m in Sources */,
+				8AD4601A1C980E8200074923 /* MSScoreButton.m in Sources */,
+				8AD460141C980E8200074923 /* MSButtonConfigurationModel.m in Sources */,
+				8AD460131C980E8200074923 /* MSButtonCommon.m in Sources */,
+				8AD460191C980E8200074923 /* MSMarksButtonList.m in Sources */,
+				8AD460151C980E8200074923 /* MSButtonFactory.m in Sources */,
+				8AD460161C980E8200074923 /* MSButtonModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		864BC8500230C29A6B3F7191B048ADD3 /* PBXTargetDependency */ = {
+		52715A4548F76668526D5A13B958D0AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MSMarksButtonList-MSMarksButtonList";
-			target = 55E04ACD5998CBF85561659B4ED7BB90 /* MSMarksButtonList-MSMarksButtonList */;
-			targetProxy = 540298C86601A0D63B075D7D01416A40 /* PBXContainerItemProxy */;
+			target = 971950A48C5AC955DD7DC4857F54A33A /* MSMarksButtonList-MSMarksButtonList */;
+			targetProxy = CEEB18A5292CDA412EA17AAE0DEFBDE2 /* PBXContainerItemProxy */;
 		};
-		99E24AF9E7815EE8C85FB082140D53D6 /* PBXTargetDependency */ = {
+		BD0741B9C914909AD5DC5340EB7A2726 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MSMarksButtonList;
-			target = 51E5FC0D900F197955EA2DCC6A3FCFE4 /* MSMarksButtonList */;
-			targetProxy = C1D3B0468FEBC6CAC8D202D90C7183D3 /* PBXContainerItemProxy */;
-		};
-		A181B12DE1011F33426F09A58582192C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MSMarksButtonList;
-			target = 51E5FC0D900F197955EA2DCC6A3FCFE4 /* MSMarksButtonList */;
-			targetProxy = 34B5B248750981F6E915A0DC18E8BEA5 /* PBXContainerItemProxy */;
+			name = "MSMarksButtonList-MSMarksButtonList";
+			target = 971950A48C5AC955DD7DC4857F54A33A /* MSMarksButtonList-MSMarksButtonList */;
+			targetProxy = D6BDC3081000B3B79881F7CF15BA128C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -483,6 +421,36 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094A369B70856E424A52C7FA635AE05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A2FADDF3263343373D5F59EF8E18FC /* Pods-MSMarksButtonList_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MSMarksButtonList_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSMarksButtonList_Tests/Pods-MSMarksButtonList_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MSMarksButtonList_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -525,7 +493,7 @@
 			};
 			name = Debug;
 		};
-		10A04BD1AED7A68012274DB89916CE64 /* Release */ = {
+		40295629F3EC2A17798D2FB39A718644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53590E7F431C26F0605CC625C796EFD6 /* Pods-MSMarksButtonList_Example.release.xcconfig */;
 			buildSettings = {
@@ -555,145 +523,7 @@
 			};
 			name = Release;
 		};
-		208B65CCAD7D133E96C2267F7F6D9297 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464880D6A3D54013B7325B5780ADBF1E /* MSMarksButtonList.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MSMarksButtonList/MSMarksButtonList-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSMarksButtonList/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MSMarksButtonList/MSMarksButtonList.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MSMarksButtonList;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6EB3FCA7DE511F6E219454510C952398 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16A2FADDF3263343373D5F59EF8E18FC /* Pods-MSMarksButtonList_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MSMarksButtonList_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MSMarksButtonList_Tests/Pods-MSMarksButtonList_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MSMarksButtonList_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C2F42C0EFC23958DC429C194BD66B4DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464880D6A3D54013B7325B5780ADBF1E /* MSMarksButtonList.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MSMarksButtonList;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CAB82EAF8FA63C642314B84F70C70624 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B891C7C849F9A8C05AC59C36472DDD86 /* Pods-MSMarksButtonList_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MSMarksButtonList_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MSMarksButtonList_Example/Pods-MSMarksButtonList_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MSMarksButtonList_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CDE7A9C91957A1E4E1F0506866DAC406 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464880D6A3D54013B7325B5780ADBF1E /* MSMarksButtonList.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MSMarksButtonList;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		EBD1D55D9BD479779A4F95218BCCB4F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464880D6A3D54013B7325B5780ADBF1E /* MSMarksButtonList.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MSMarksButtonList/MSMarksButtonList-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSMarksButtonList/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MSMarksButtonList/MSMarksButtonList.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MSMarksButtonList;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F7C38043A5A32CD48E77D3A7CFD52F35 /* Debug */ = {
+		4CA048CA24D6B96263F89F72C4BBDFAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0FC9E6800F0BEAF3BE4C1DF2DC1C7F3 /* Pods-MSMarksButtonList_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -723,6 +553,58 @@
 			};
 			name = Debug;
 		};
+		AE0FE78617DAE41F84B0C0B57CD91D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MSMarksButtonList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C5A2C04BFC25C2C3C132B3BD169AE79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MSMarksButtonList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E0057DFFC5A2CBE17F4706211F6F7CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B891C7C849F9A8C05AC59C36472DDD86 /* Pods-MSMarksButtonList_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MSMarksButtonList_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSMarksButtonList_Example/Pods-MSMarksButtonList_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MSMarksButtonList_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -735,38 +617,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DFB0B4CAF18E52B760A48C2AE0B570D /* Build configuration list for PBXNativeTarget "MSMarksButtonList" */ = {
+		A9AA96B5AE0DA3F8F11450134ADE81D4 /* Build configuration list for PBXNativeTarget "MSMarksButtonList-MSMarksButtonList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				208B65CCAD7D133E96C2267F7F6D9297 /* Debug */,
-				EBD1D55D9BD479779A4F95218BCCB4F6 /* Release */,
+				AE0FE78617DAE41F84B0C0B57CD91D67 /* Debug */,
+				C5A2C04BFC25C2C3C132B3BD169AE79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75F6C62BD917C13FD67D686DCFDD104A /* Build configuration list for PBXNativeTarget "MSMarksButtonList-MSMarksButtonList" */ = {
+		B40954285A260ABB6364D004A0D6182F /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2F42C0EFC23958DC429C194BD66B4DC /* Debug */,
-				CDE7A9C91957A1E4E1F0506866DAC406 /* Release */,
+				4CA048CA24D6B96263F89F72C4BBDFAE /* Debug */,
+				094A369B70856E424A52C7FA635AE05B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D48F853B2E54A094DA2C30BCFD8817A6 /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Example" */ = {
+		C34573A8EA7069940ED4F117CEA88548 /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAB82EAF8FA63C642314B84F70C70624 /* Debug */,
-				10A04BD1AED7A68012274DB89916CE64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA35FC0612DCE98A1CCFB769295F3F2A /* Build configuration list for PBXNativeTarget "Pods-MSMarksButtonList_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7C38043A5A32CD48E77D3A7CFD52F35 /* Debug */,
-				6EB3FCA7DE511F6E219454510C952398 /* Release */,
+				E0057DFFC5A2CBE17F4706211F6F7CA2 /* Debug */,
+				40295629F3EC2A17798D2FB39A718644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

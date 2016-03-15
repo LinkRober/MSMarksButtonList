@@ -1,6 +1,0 @@
-framework module MSMarksButtonList {
-  umbrella header "MSMarksButtonList-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -7,7 +7,6 @@
 //
 
 #import "MSViewController.h"
-
 @interface MSViewController ()
 
 @end
@@ -17,6 +16,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"MSMarksButtonList";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

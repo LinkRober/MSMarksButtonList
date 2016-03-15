@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
                         This CocoaPod provides the ability to use a button list just like a  UICollectionView
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MSMarksButtonList"
+  s.homepage         = "https://github.com/robert121/MSMarksButtonList"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2
   s.license          = 'MIT'
   s.author           = { "夏敏" => "min.xia@mishi.cn" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MSMarksButtonList.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/robert121/MSMarksButtonList.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

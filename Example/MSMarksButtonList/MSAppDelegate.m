@@ -7,12 +7,21 @@
 //
 
 #import "MSAppDelegate.h"
+#import "MSViewController.h"
 
 @implementation MSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIStoryboard *main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    NSLog(@"%@",NSStringFromCGSize([[UIScreen mainScreen] bounds].size));
+    MSViewController *VC = [main instantiateViewControllerWithIdentifier:NSStringFromClass([MSViewController class])];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:VC];
+    nav.navigationItem.title = @"Test";
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

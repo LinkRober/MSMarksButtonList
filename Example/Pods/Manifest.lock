@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MSMarksButtonList: 9946b40ba4b8b6ae0ceccf4f390c8aa1237e82cb
+  MSMarksButtonList: 7b4082d2dcbafa86630e30e5232adfe3bc056ebe
 
 COCOAPODS: 0.39.0
