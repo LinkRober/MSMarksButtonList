@@ -1,0 +1,14 @@
+PODS:
+  - MSMarksButtonList (0.1.0)
+
+DEPENDENCIES:
+  - MSMarksButtonList (from `../`)
+
+EXTERNAL SOURCES:
+  MSMarksButtonList:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MSMarksButtonList: 9946b40ba4b8b6ae0ceccf4f390c8aa1237e82cb
+
+COCOAPODS: 0.39.0
