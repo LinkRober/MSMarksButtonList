@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MSMarksButtonList"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "a list of button,like collection view"
 
 # This description is used to generate tags and improve search results.

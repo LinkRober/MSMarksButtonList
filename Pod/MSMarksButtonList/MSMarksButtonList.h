@@ -5,9 +5,7 @@
 //  Created by 夏敏 on 10/2/15.
 //  Copyright © 2015 ___MISHI___. All rights reserved.
 //
-/**
- *  下单页面和评价 buttonlist控件 自适应个数
- */
+
 #import <UIKit/UIKit.h>
 #import "MSButtonCommon.h"
 #import "MSButtonFactoryProtocol.h"
