@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MSMarksButtonList_Example', :exclusive => true do
+  pod 'MSMarksButtonList', :path => '../'
+end
+
+target 'MSMarksButtonList_Tests', :exclusive => true do
+  pod 'MSMarksButtonList', :path => '../'
+
+  
+end
