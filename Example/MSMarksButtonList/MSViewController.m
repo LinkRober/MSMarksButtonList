@@ -7,8 +7,10 @@
 //
 
 #import "MSViewController.h"
+#import "MSMarksButtonList.h"
+#import "MSButtonConfigurationModel.h"
 
-@interface MSViewController ()
+@interface MSViewController ()<MSMarksButtonListDelegate>
 
 @end
 
@@ -19,13 +21,29 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"MSMarksButtonList";
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    MSButtonConfigurationModel *configuration = [[MSButtonConfigurationModel alloc] initWithEdgeMargin:12.0f
+                                                                                             horMargin:10.0f
+                                                                                             verMargin:10.0f
+                                                                                          buttonHeight:32.0f
+                                                                                         fromTopMargin:160];
+    
+    configuration.hide = NO;
+    MSMarksButtonList *buttonList = [[MSMarksButtonList alloc] initWithDataSource:[NSArray array]
+                                                                       buttonType:MSButtonTypeOrderScore
+                                                                    configuration:configuration];
+    [buttonList setDelegate:self];
+    [self.view addSubview:buttonList];
+    
+    
+    // when data call back successfully
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+    });
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
 
 @end

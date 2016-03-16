@@ -1,5 +1,5 @@
 PODS:
-  - MSMarksButtonList (0.1.0)
+  - MSMarksButtonList (0.1.1)
 
 DEPENDENCIES:
   - MSMarksButtonList (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MSMarksButtonList: 7b4082d2dcbafa86630e30e5232adfe3bc056ebe
+  MSMarksButtonList: 266b62e011431595fdae21504b0d8edccc8e2807
 
 COCOAPODS: 0.39.0
