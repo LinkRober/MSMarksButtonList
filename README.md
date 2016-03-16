@@ -9,7 +9,7 @@ A group of buttons ,can be used to do a multiple choice component
 
 ## Usage
 ```
-easy
+usage
 ```
 
 ## Requirements
