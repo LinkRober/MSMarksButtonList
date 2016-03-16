@@ -47,7 +47,7 @@
     self.layer.cornerRadius = 16;
 }
 - (void)setHighLightEdge{
-    self.layer.borderWidth = 0;
+    self.layer.borderWidth = 0.5;
     self.layer.borderColor = self.buttonModel.selectedEdgeColor.CGColor;
 }
 

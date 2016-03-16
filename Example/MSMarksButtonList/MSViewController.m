@@ -36,14 +36,47 @@
     [buttonList setDelegate:self];
     [self.view addSubview:buttonList];
     
-    
+    //Mock data source
+    NSMutableArray *dataSource = [NSMutableArray array];
+    for (int i = 0; i < 12; i ++) {
+        if (i % 2 == 0) {
+            MSButtonModel *model = [[MSButtonModel alloc] initWithButtonNormalName:@"狠辣"
+                                                                      selectedName:@"狠辣"
+                                                                       normalColor:[UIColor redColor]
+                                                                     selectedColor:[UIColor blueColor]
+                                                                     normalBgImage:nil
+                                                                   selectedBgImage:nil
+                                                                         titleFont:[UIFont systemFontOfSize:12.0f]
+                                                                        hightLight:NO
+                                                                   normalEdgeColor:[UIColor redColor]
+                                                                 selectedEdgeColor:[UIColor blueColor]
+                                    ];
+            [dataSource addObject:model];
+        }
+        else {
+            MSButtonModel *model = [[MSButtonModel alloc] initWithButtonNormalName:@"甜的"
+                                                                      selectedName:@"甜的"
+                                                                       normalColor:[UIColor redColor]
+                                                                     selectedColor:[UIColor blueColor]
+                                                                     normalBgImage:nil
+                                                                   selectedBgImage:nil
+                                                                         titleFont:[UIFont systemFontOfSize:12.0f]
+                                                                        hightLight:YES
+                                                                   normalEdgeColor:[UIColor redColor]
+                                                                 selectedEdgeColor:[UIColor blueColor]
+                                    ];
+            [dataSource addObject:model];
+        }
+    }
     // when data call back successfully
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [buttonList setDatas:dataSource];
     });
 }
 
+#pragma mark - MSMarksButtonListDelegate
 
-
+-(void)markListButtonClick:(MSMarksButtonList *)buttonList buttonModel:(MSButtonModel *)buttonModel {}
+-(void)markListButtonClick:(MSMarksButtonList *)buttonList buttonTitle:(NSString *)buttonTitle{}
 
 @end
