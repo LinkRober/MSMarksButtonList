@@ -7,7 +7,8 @@
 
 A group of buttons ,can be used to do a multiple choice component
 
-<div align="left"><img src="https://github.com/LinkRober/MSMarksButtonList/blob/master/Example/ScreenShot/screenshot1.png" height="400px" /></div>
+<div align="left"><img src="https://github.com/LinkRober/MSMarksButtonList/blob/master/Example/ScreenShot/screenshot1.PNG" height="400px" /></div>
+
 
 ## Usage
 
@@ -32,7 +33,7 @@ MSMarksButtonList *buttonList = [[MSMarksButtonList alloc] initWithDataSource:[N
 ```
 
 >**Tips**</br>
-I must convert your data model to button model(MSButtonModel),like example as.
+I must convert your data model to button model(MSButtonModel),like example.
 
 ## Requirements
 * ios 7+
