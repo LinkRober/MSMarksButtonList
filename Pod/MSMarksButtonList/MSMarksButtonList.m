@@ -14,6 +14,7 @@
 #import "MSButtonConfigurationModel.h"
 #import "MSButtonModel.h"
 
+
 @interface MSMarksButtonList()
 {
     CGFloat   buttonHeight;//height of button
@@ -26,6 +27,8 @@
     NSInteger buttonNumberOfaRow;//column
     
     CGFloat   sumHeight;
+    
+    unsigned long numberInaLine;
 }
 
 @property (nonatomic, assign)  MSButtonType    buttonType;//button type
@@ -108,12 +111,13 @@
         return;
     }
     
-    buttonNumberOfaLine = 3;
-    buttonNumberOfaRow = [MSMarksButtonHelper getButtonListRow:_dataSource.count];
+    numberInaLine = self.configuationModel.numberInaLine;
+    buttonNumberOfaLine = numberInaLine;
+    buttonNumberOfaRow = [MSMarksButtonHelper getButtonListRow:_dataSource.count numberInLine:numberInaLine];
     
     [self configureMargin:self.configuationModel];
     
-    buttonWidth = (kDeviceScreen_Width - kMSMarksButtonListEdgeMargin * 2 - kMSMarksButtonListHorMargin * 2) / 3;
+    buttonWidth = (kDeviceScreen_Width - kMSMarksButtonListEdgeMargin * (numberInaLine - 1) - kMSMarksButtonListHorMargin * (numberInaLine - 1)) / numberInaLine;
     
     [self.dataSource enumerateObjectsUsingBlock:^(MSButtonModel *buttonModel, NSUInteger idx, BOOL * _Nonnull stop) {
          UIButton *bt = (UIButton *)[MSButtonFactory createButton:self.buttonType model:buttonModel];
@@ -124,7 +128,7 @@
     
     
     sumHeight = buttonNumberOfaRow*buttonHeight + (buttonNumberOfaRow - 1) * kMSMarksButtonListVerMargin;
-    self.frame = CGRectMake(kMSMarksButtonListEdgeMargin, kMSMarksButtonListFromTopMargin, (kDeviceScreen_Width - kMSMarksButtonListEdgeMargin*2), sumHeight);
+    self.frame = CGRectMake(kMSMarksButtonListEdgeMargin, kMSMarksButtonListFromTopMargin, (kDeviceScreen_Width - kMSMarksButtonListEdgeMargin*(numberInaLine - 1)), sumHeight);
     
     if (self.configuationModel.hide) {
         [self hideButtonListAnimated:NO];
@@ -152,9 +156,9 @@
     
     [self.buttonsArray enumerateObjectsUsingBlock:^(UIButton *button, NSUInteger idx, BOOL * _Nonnull stop) {
         //current i
-        NSInteger current_i = [MSMarksButtonHelper currentXWith:idx];
+        NSInteger current_i = [MSMarksButtonHelper currentXWith:idx numberInLine:numberInaLine];
         //current j
-        NSInteger current_j = [MSMarksButtonHelper currentYWith:idx];
+        NSInteger current_j = [MSMarksButtonHelper currentYWith:idx numberInLine:numberInaLine];
         //
         button.frame = CGRectMake(current_i*(buttonWidth + kMSMarksButtonListHorMargin), current_j*(buttonHeight + kMSMarksButtonListVerMargin), buttonWidth, buttonHeight);
     }];

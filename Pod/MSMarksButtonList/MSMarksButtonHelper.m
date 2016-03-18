@@ -10,19 +10,19 @@
 
 @implementation MSMarksButtonHelper
 
-+(NSInteger)currentXWith:(NSInteger)index{
-    return index % 3;
++(NSInteger)currentXWith:(NSInteger)index numberInLine:(NSInteger)number{
+    return index % number;
 }
 
-+(NSInteger)currentYWith:(NSInteger)index{
-    return floor(index / 3);
++(NSInteger)currentYWith:(NSInteger)index numberInLine:(NSInteger)number{
+    return floor(index / number);
 }
 
-+(NSInteger)getButtonListRow:(NSInteger)sum {
-    if (sum%3 == 0) {
-        return sum/3;
++(NSInteger)getButtonListRow:(NSInteger)sum numberInLine:(NSInteger)number{
+    if (sum % number == 0) {
+        return sum/number;
     }else {
-       return fabs((double)sum/3) + 1;
+       return fabs((double)sum/number) + 1;
     }
 }
 

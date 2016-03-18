@@ -27,7 +27,8 @@
                                                                                              horMargin:10.0f
                                                                                              verMargin:10.0f
                                                                                           buttonHeight:32.0f
-                                                                                         fromTopMargin:160];
+                                                                                         fromTopMargin:160
+                                                                                         numberInALine:4];
     
     configuration.hide = NO;
     MSMarksButtonList *buttonList = [[MSMarksButtonList alloc] initWithDataSource:[NSArray array]

@@ -15,6 +15,7 @@
                         verMargin:(CGFloat)verMargin
                      buttonHeight:(CGFloat)buttonHeight
                     fromTopMargin:(CGFloat)fromTopMargin
+                    numberInALine:(NSInteger)numberInaLine
 {
     self = [super init];
     if (self) {
@@ -23,6 +24,7 @@
         _verMargin = verMargin;
         _buttonHeight = buttonHeight;
         _fromTopMargin = fromTopMargin;
+        _numberInaLine = numberInaLine;
     }
     return self;
 }

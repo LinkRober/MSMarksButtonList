@@ -12,10 +12,10 @@
 
 @interface MSMarksButtonHelper : NSObject
 
-+ (NSInteger)currentXWith:(NSInteger)index;
++ (NSInteger)currentXWith:(NSInteger)index numberInLine:(NSInteger )number;
 
-+ (NSInteger)currentYWith:(NSInteger)index;
++ (NSInteger)currentYWith:(NSInteger)index numberInLine:(NSInteger )number;
 
-+ (NSInteger)getButtonListRow:(NSInteger)sum;
++ (NSInteger)getButtonListRow:(NSInteger)sum numberInLine:(NSInteger )number;
 
 @end
