@@ -16,24 +16,52 @@ A group of buttons ,can be used to do a multiple choice component
 
 ## Usage
 
-Setting up padding:
+Setting up padding:<br>
+
+**MSButtonConfigurationModel**<br>
+
+`@property (nonatomic, assign)  CGFloat edgeMargin`<br>
+leading and trailing padding.
+
+`@property (nonatomic, assign)  CGFloat horMargin`<br>
+Horizontal padding between buttons.
+
+`@property (nonatomic, assign)  CGFloat verMargin`<br>
+Vertical padding between buttons
+
+`@property (nonatomic, assign)  CGFloat buttonHeight`<br>
+height of button
+
+`@property (nonatomic, assign) CGFloat fromTopMargin`<br>
+padding form top
+
+`@property (nonatomic, getter=isHide)  BOOL hide`<br>
+hide when initial
+
+`@property (nonatomic, assign)  NSInteger numberInaLine`</br>
+number of buttons in very line
+
+<br>
+
 
 ```
 MSButtonConfigurationModel *configuration = [[MSButtonConfigurationModel alloc] initWithEdgeMargin:12.0f
                                                                                              horMargin:10.0f
                                                                                              verMargin:10.0f
                                                                                           buttonHeight:32.0f
-                                                                                         fromTopMargin:160];
+                                                                                         fromTopMargin:160
+                                                                                         numberInALine:4];
 
 ```
 
 Initialize buttonList:
 
 ```
+
 MSMarksButtonList *buttonList = [[MSMarksButtonList alloc] initWithDataSource:[NSArray array]
                                                                        buttonType:MSButtonTypeOrderScore
                                                                     configuration:configuration];
-
+                                                                    
 ```
 
 >**Tips**</br>

@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat fromTopMargin;//padding form top
 @property (nonatomic, getter=isHide)  BOOL hide;//hide when initial
 
-@property (nonatomic, assign)  NSInteger numberInaLine;
+@property (nonatomic, assign)  NSInteger numberInaLine;//number of buttons in very line
 
 
 
