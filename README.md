@@ -7,8 +7,11 @@
 
 A group of buttons ,can be used to do a multiple choice component
 
-<div align="left"><img src="https://github.com/LinkRober/MSMarksButtonList/blob/master/Example/ScreenShot/screenshot1.PNG" height="400px" /></div>
-<div align="left"><img src="https://github.com/LinkRober/MSMarksButtonList/blob/master/Example/ScreenShot/screenshot2.PNG" height="400px" /></div>
+<div style="display:inline-block"><img src="https://github.com/LinkRober/MSMarksButtonList/blob/master/Example/ScreenShot/screenshot1.PNG" height="400px" /></div>
+
+<div style="display:inline-block"><img src="https://github.com/LinkRober/MSMarksButtonList/blob/master/Example/ScreenShot/screenshot2.PNG" height="400px" /></div>
+
+
 
 
 ## Usage
