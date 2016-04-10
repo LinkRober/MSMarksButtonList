@@ -26,6 +26,7 @@
     NSInteger buttonNumberOfaLine;//row
     NSInteger buttonNumberOfaRow;//column
     
+    CGFloat   componentWidth;
     CGFloat   sumHeight;
     
     unsigned long numberInaLine;
@@ -117,7 +118,7 @@
     
     [self configureMargin:self.configuationModel];
     
-    buttonWidth = (kDeviceScreen_Width - kMSMarksButtonListEdgeMargin * (numberInaLine - 1) - kMSMarksButtonListHorMargin * (numberInaLine - 1)) / numberInaLine;
+    buttonWidth = (componentWidth - kMSMarksButtonListEdgeMargin * (numberInaLine - 1) - kMSMarksButtonListHorMargin * (numberInaLine - 1)) / numberInaLine;
     
     [self.dataSource enumerateObjectsUsingBlock:^(MSButtonModel *buttonModel, NSUInteger idx, BOOL * _Nonnull stop) {
          UIButton *bt = (UIButton *)[MSButtonFactory createButton:self.buttonType model:buttonModel];
@@ -128,7 +129,7 @@
     
     
     sumHeight = buttonNumberOfaRow*buttonHeight + (buttonNumberOfaRow - 1) * kMSMarksButtonListVerMargin;
-    self.frame = CGRectMake(kMSMarksButtonListEdgeMargin, kMSMarksButtonListFromTopMargin, (kDeviceScreen_Width - kMSMarksButtonListEdgeMargin*(numberInaLine - 1)), sumHeight);
+    self.frame = CGRectMake(kMSMarksButtonListEdgeMargin, kMSMarksButtonListFromTopMargin, (componentWidth - kMSMarksButtonListEdgeMargin*(numberInaLine - 1)), sumHeight);
     
     if (self.configuationModel.hide) {
         [self hideButtonListAnimated:NO];
@@ -149,6 +150,7 @@
     kMSMarksButtonListVerMargin     = configurationModel.verMargin;
     kMSMarksButtonListFromTopMargin = configurationModel.fromTopMargin;
     buttonHeight                    = configurationModel.buttonHeight;
+    componentWidth = configurationModel.componentWidth;
 }
 
 #pragma mark - Super

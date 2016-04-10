@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define kDeviceScreen_Width [[UIScreen mainScreen] bounds].size.width
-
 @interface MSMarksButtonHelper : NSObject
 
 + (NSInteger)currentXWith:(NSInteger)index numberInLine:(NSInteger )number;

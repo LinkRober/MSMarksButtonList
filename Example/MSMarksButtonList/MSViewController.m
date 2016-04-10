@@ -28,6 +28,7 @@
                                                                                              verMargin:10.0f
                                                                                           buttonHeight:32.0f
                                                                                          fromTopMargin:160
+                                                                                        componentWidth:[[UIScreen mainScreen] bounds].size.width
                                                                                          numberInALine:4];
     
     configuration.hide = NO;

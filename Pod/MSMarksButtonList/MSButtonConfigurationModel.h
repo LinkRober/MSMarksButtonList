@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign)  CGFloat buttonHeight;//height of button
 
 @property (nonatomic, assign) CGFloat fromTopMargin;//padding form top
+@property (nonatomic, assign) CGFloat componentWidth;//width of component
+
 @property (nonatomic, getter=isHide)  BOOL hide;//hide when initial
 
 @property (nonatomic, assign)  NSInteger numberInaLine;//number of buttons in very line
@@ -30,6 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
                         verMargin:(CGFloat)verMargin
                      buttonHeight:(CGFloat)buttonHeight
                     fromTopMargin:(CGFloat)fromTopMargin
+                   componentWidth:(CGFloat)componentWidth
                     numberInALine:(NSInteger )numberInaLine;
 
 @end
