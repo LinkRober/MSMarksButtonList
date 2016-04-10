@@ -23,7 +23,7 @@
     self.navigationItem.title = @"MSMarksButtonList";
     
     
-    MSButtonConfigurationModel *configuration = [[MSButtonConfigurationModel alloc] initWithEdgeMargin:12.0f
+    MSButtonConfigurationModel *configuration = [[MSButtonConfigurationModel alloc] initWithEdgeMargin:0.0f
                                                                                              horMargin:10.0f
                                                                                              verMargin:10.0f
                                                                                           buttonHeight:32.0f
@@ -36,6 +36,7 @@
                                                                        buttonType:MSButtonTypeOrderScore
                                                                     configuration:configuration];
     [buttonList setDelegate:self];
+    buttonList.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:buttonList];
     
     //Mock data source

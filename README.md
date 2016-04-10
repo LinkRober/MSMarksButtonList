@@ -21,35 +21,47 @@ Setting up padding:<br>
 **MSButtonConfigurationModel**<br>
 
 `@property (nonatomic, assign)  CGFloat edgeMargin`<br>
-leading and trailing padding.
+leading and trailing padding.<br>
+最左边的button和最右边的button距离组件两侧边缘的距离
 
 `@property (nonatomic, assign)  CGFloat horMargin`<br>
-Horizontal padding between buttons.
+Horizontal padding between buttons.<br>
+水平方向上button与button之间的距离
 
 `@property (nonatomic, assign)  CGFloat verMargin`<br>
-Vertical padding between buttons
+Vertical padding between buttons.<br>
+垂直方向上button与button之间的距离
 
 `@property (nonatomic, assign)  CGFloat buttonHeight`<br>
-height of button
+height of button.<br>
+button的高度
 
 `@property (nonatomic, assign) CGFloat fromTopMargin`<br>
-padding form top
+padding form top.<br>
+组件的top距离父view的top的距离.
+
+`@property (nonatomic, assign) CGFloat componentWidth`<br>
+width of component.<br>
+组件的宽度
 
 `@property (nonatomic, getter=isHide)  BOOL hide`<br>
-hide when initial
+hide when initial.<br>
+初始化时是否隐藏.
 
 `@property (nonatomic, assign)  NSInteger numberInaLine`</br>
-number of buttons in very line
+number of buttons in very line.<br>
+每一行button的数量
 
 <br>
 
 
 ```
-MSButtonConfigurationModel *configuration = [[MSButtonConfigurationModel alloc] initWithEdgeMargin:12.0f
+MSButtonConfigurationModel *configuration = [[MSButtonConfigurationModel alloc] initWithEdgeMargin:0.0f
                                                                                              horMargin:10.0f
                                                                                              verMargin:10.0f
                                                                                           buttonHeight:32.0f
                                                                                          fromTopMargin:160
+                                                                                        componentWidth:[[UIScreen mainScreen] bounds].size.width
                                                                                          numberInALine:4];
 
 ```
