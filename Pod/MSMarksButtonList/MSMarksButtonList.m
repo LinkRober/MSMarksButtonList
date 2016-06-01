@@ -123,6 +123,7 @@
     [self.dataSource enumerateObjectsUsingBlock:^(MSButtonModel *buttonModel, NSUInteger idx, BOOL * _Nonnull stop) {
          UIButton *bt = (UIButton *)[MSButtonFactory createButton:self.buttonType model:buttonModel];
         [bt addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
+        bt.layer.cornerRadius = buttonHeight / 2;
         [self addSubview:bt];
         [self.buttonsArray addObject:bt];
     }];
